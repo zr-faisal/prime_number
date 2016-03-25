@@ -4,7 +4,7 @@ import math
 # Detecting if the given value is prime number by checking it from 2 to it's squre-root
 def is_prime(value):
 	if value == 1:
-			return False
+		return False
 	for i in xrange(2, int(math.sqrt(value) + 1)):
 		if value%i == 0:
 			return False
